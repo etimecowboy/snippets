@@ -5,7 +5,7 @@
 # --
 #   -*- mode: org; coding: utf-8-unix  -*-
 # Copyright (C) Xin Yang, all rights reserved
-# Time-stamp: <2016-05-19 Thu 10:36 by xin on zbox.soton.ac.uk>
+# Time-stamp: <2017-05-16 星期二 11:24 by xin on xinud>
 #+TITLE:      `(buffer-file-name (current-buffer))`
 #+CATEGORY:   Wiki
 #+STARTUP:    overview noindent align noinlineimages nolatexpreview
@@ -17,9 +17,9 @@
 #+OPTIONS:    tex:imagemagick latex:t
 #+LINK:       google http://www.google.com/search?=%s
 #+LINK:       wiki   http://en.wikipedia.org/wiki/Special:Search?search=%s&go=Go
-#+LINK:       rid    file:~/GoogleDrive/reading_notes/%s/
-#+LINK:       xywiki file:~/Dropbox/wiki/%s.org
-#+INCLUDE:    "templates/WikiHeader3.org" :minlevel 1 
+#+LINK:       rid    file:~/reading_notes/%s/
+#+LINK:       xywiki file:~/wiki/%s.org
+#+INCLUDE:    "~/emacs/org/addon/work/templates/WikiHeader3.org" :minlevel 1 
 #+EXPORT_EXCLUDE_TAGS: noexport
 # --------------------------------------------------------------------
 #+LATEX:\newpage\noindent
@@ -29,5 +29,5 @@ $0
 - v0.01:  File created `(format-time-string "<%Y-%02m-%02d %3a %02H:%02M>")`
 
 # --------------------------------------------------------------------
-#+BIBLIOGRAPHY:  bib/all apalike option:-a option:-nobibsource option:-unicode option:-use-keys option:-html-entities limit:t
+# #+BIBLIOGRAPHY:  bib/all apalike option:-a option:-nobibsource option:-unicode option:-use-keys option:-html-entities limit:t
 # --------------------------------------------------------------------
