@@ -5,7 +5,7 @@
 # --
 #   -*- mode: org; coding: utf-8-unix  -*-
 # Copyright (C) Xin Yang, all rights reserved
-# Time-stamp: <2017-05-16 星期二 11:24 by xin on xinud>
+# Time-stamp: <2017-05-30 Tue 10:53 by xin on xinud>
 #+TITLE:      `(buffer-file-name (current-buffer))`
 #+CATEGORY:   Wiki
 #+STARTUP:    overview noindent align noinlineimages nolatexpreview
@@ -17,7 +17,7 @@
 #+OPTIONS:    tex:imagemagick latex:t
 #+LINK:       google http://www.google.com/search?=%s
 #+LINK:       wiki   http://en.wikipedia.org/wiki/Special:Search?search=%s&go=Go
-#+LINK:       rid    file:~/reading_notes/%s/
+#+LINK:       rid    file:~/reading/%s/
 #+LINK:       xywiki file:~/wiki/%s.org
 #+INCLUDE:    "~/emacs/org/addon/work/templates/WikiHeader3.org" :minlevel 1 
 #+EXPORT_EXCLUDE_TAGS: noexport
